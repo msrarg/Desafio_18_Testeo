@@ -1,0 +1,25 @@
+{
+  "name": "desafio_18_testeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test/apiTest.test.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mauricio Simón Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.0",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.4"
+  }
+}
